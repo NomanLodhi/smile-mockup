@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fatima Dental Hospital – Your Smile, Our Passion</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ===== PRELOADER ===== -->
+<div id="preloader">
+  <div class="preloader-inner">
+    <img src="https://smile.com.pk/images/logo.png" alt="Logo" class="pre-logo"/>
+    <div class="pre-bar"><span></span></div>
+  </div>
+</div>
+
+<!-- ===== TOPBAR ===== -->
+<div class="topbar">
+  <div class="container-fluid px-4">
+    <div class="row align-items-center">
+      <div class="col-md-8 d-flex flex-wrap gap-3">
+        <span><i class="bi bi-telephone-fill me-1"></i> (03) 111-334-222 | 021-34549684</span>
+        <span><i class="bi bi-envelope-fill me-1"></i> smilecare@hotmail.com</span>
+        <span><i class="bi bi-clock-fill me-1"></i> Mon–Sat: 9:00 AM – 9:00 PM</span>
+      </div>
+      <div class="col-md-4 text-end">
+        <a href="#" class="topbar-social"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="topbar-social"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="topbar-social"><i class="bi bi-twitter-x"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg main-nav" id="mainNav">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand" href="index.html">
+      <img src="https://smile.com.pk/images/logo.png" alt="Fatima Dental Hospital" class="nav-logo"/>
+      <div class="brand-text">
+        <span class="brand-title">Fatima Dental</span>
+        <span class="brand-sub">Hospital</span>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="toggler-icon"><span></span><span></span><span></span></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="implants.html">Dental Implants</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        <li class="nav-item ms-lg-3">
+          <a class="btn btn-primary-red nav-cta" href="contact.html">Book Appointment</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO SLIDER ===== -->
+<section class="hero-section" id="hero">
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="hero-slide" style="background-image:url('https://smile.com.pk/images/slider/slide1.jpg')">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <span class="hero-badge">World-Class Dental Care</span>
+            <h1 class="hero-title">Your Perfect Smile<br/><em>Starts Here</em></h1>
+            <p class="hero-sub">Trusted by thousands of patients across Karachi. Advanced dentistry with a gentle touch.</p>
+            <div class="hero-btns">
+              <a href="contact.html" class="btn btn-primary-red">Book Appointment</a>
+              <a href="about.html" class="btn btn-outline-white">Meet Our Doctors</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="hero-slide" style="background-image:url('https://smile.com.pk/images/slider/slide2.jpg')">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <span class="hero-badge">Dental Implants Experts</span>
+            <h1 class="hero-title">Restore Your Smile<br/><em>Permanently</em></h1>
+            <p class="hero-sub">State-of-the-art dental implants that look, feel and function like natural teeth.</p>
+            <div class="hero-btns">
+              <a href="implants.html" class="btn btn-primary-red">Learn More</a>
+              <a href="contact.html" class="btn btn-outline-white">Free Consultation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="hero-slide" style="background-image:url('https://smile.com.pk/images/slider/slide3.jpg')">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <span class="hero-badge">Advanced Technology</span>
+            <h1 class="hero-title">Modern Dentistry<br/><em>Painless & Precise</em></h1>
+            <p class="hero-sub">We use the latest dental technology to ensure comfortable and effective treatments.</p>
+            <div class="hero-btns">
+              <a href="about.html" class="btn btn-primary-red">Our Services</a>
+              <a href="contact.html" class="btn btn-outline-white">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="hero-slide" style="background-image:url('https://smile.com.pk/images/slider/slide4.jpg')">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <span class="hero-badge">2 Convenient Locations</span>
+            <h1 class="hero-title">Serving Karachi<br/><em>Since Decades</em></h1>
+            <p class="hero-sub">With branches in Khalid Bin Waleed Road & F.B. Area, quality dental care is always nearby.</p>
+            <div class="hero-btns">
+              <a href="contact.html" class="btn btn-primary-red">Find Us</a>
+              <a href="about.html" class="btn btn-outline-white">Our Story</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <i class="bi bi-chevron-left"></i>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <i class="bi bi-chevron-right"></i>
+    </button>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="scroll-indicator">
+    <span>Scroll Down</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ===== STATS BAND ===== -->
+<section class="stats-band">
+  <div class="container-fluid px-0">
+    <div class="row g-0">
+      <div class="col-6 col-md-3 stat-item" data-gsap="stat">
+        <span class="stat-num" data-count="25000">0</span><span class="stat-plus">+</span>
+        <p>Happy Patients</p>
+      </div>
+      <div class="col-6 col-md-3 stat-item" data-gsap="stat">
+        <span class="stat-num" data-count="30">0</span><span class="stat-plus">+</span>
+        <p>Years Experience</p>
+      </div>
+      <div class="col-6 col-md-3 stat-item" data-gsap="stat">
+        <span class="stat-num" data-count="15">0</span><span class="stat-plus">+</span>
+        <p>Expert Doctors</p>
+      </div>
+      <div class="col-6 col-md-3 stat-item" data-gsap="stat">
+        <span class="stat-num" data-count="2">0</span>
+        <p>Clinic Locations</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services-section py-section" id="services">
+  <div class="container">
+    <div class="section-header text-center" data-gsap="fadeUp">
+      <span class="section-tag">What We Offer</span>
+      <h2 class="section-title">Comprehensive Dental Services</h2>
+      <p class="section-desc">From routine checkups to complex restorations — we provide complete oral care under one roof.</p>
+    </div>
+    <div class="row g-4 mt-2">
+      <div class="col-md-6 col-lg-4" data-gsap="card">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-stars"></i></div>
+          <h4>Teeth Whitening</h4>
+          <p>Professional in-office whitening treatments that brighten your smile by several shades in a single visit.</p>
+          <a href="contact.html" class="service-link">Book Now <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-gsap="card">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-shield-plus"></i></div>
+          <h4>Dental Implants</h4>
+          <p>Permanent tooth replacement solutions that restore your bite and smile with titanium precision.</p>
+          <a href="implants.html" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-gsap="card">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-heart-pulse"></i></div>
+          <h4>Orthodontics</h4>
+          <p>Braces and clear aligner systems to straighten teeth and create beautifully aligned smiles.</p>
+          <a href="contact.html" class="service-link">Consult Now <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-gsap="card">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-clipboard2-pulse"></i></div>
+          <h4>Root Canal Treatment</h4>
+          <p>Pain-free root canal procedures using modern rotary endodontics and digital imaging.</p>
+          <a href="contact.html" class="service-link">Book Now <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-gsap="card">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-bandaid"></i></div>
+          <h4>Oral Surgery</h4>
+          <p>Expert surgical care including extractions, wisdom teeth removal, and bone grafting.</p>
+          <a href="contact.html" class="service-link">Consult Now <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-gsap="card">
+        <div class="service-card">
+          <div class="service-icon"><i class="bi bi-person-check"></i></div>
+          <h4>Pediatric Dentistry</h4>
+          <p>Gentle and fun dental experiences for children, building healthy habits from an early age.</p>
+          <a href="contact.html" class="service-link">Book Now <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT TEASER ===== -->
+<section class="about-teaser py-section" id="about-teaser">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-gsap="fadeLeft">
+        <div class="about-img-grid">
+          <img src="https://smile.com.pk/images/images13.jpg" alt="Clinic" class="img1"/>
+          <img src="https://smile.com.pk/images/images14.jpg" alt="Clinic" class="img2"/>
+          <img src="https://smile.com.pk/images/drshah.png" alt="Doctor" class="img3"/>
+          <div class="exp-badge"><span>30+</span><small>Years of Trust</small></div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-gsap="fadeRight">
+        <span class="section-tag">About Fatima Dental</span>
+        <h2 class="section-title">Karachi's Most Trusted<br/>Dental Practice</h2>
+        <p class="lead-text">For over three decades, Fatima Dental Hospital has been the cornerstone of oral health excellence in Karachi. Our team of highly qualified specialists delivers world-class dental care in a warm, comfortable environment.</p>
+        <p>We believe every patient deserves personalized attention, cutting-edge treatments, and results that exceed expectations. With two conveniently located branches, we make quality dental care accessible to all.</p>
+        <div class="about-features row g-3 mt-3">
+          <div class="col-6">
+            <div class="feat-item"><i class="bi bi-check-circle-fill"></i> ISO Certified Clinic</div>
+          </div>
+          <div class="col-6">
+            <div class="feat-item"><i class="bi bi-check-circle-fill"></i> Latest Equipment</div>
+          </div>
+          <div class="col-6">
+            <div class="feat-item"><i class="bi bi-check-circle-fill"></i> Expert Specialists</div>
+          </div>
+          <div class="col-6">
+            <div class="feat-item"><i class="bi bi-check-circle-fill"></i> Sterilized Environment</div>
+          </div>
+        </div>
+        <a href="about.html" class="btn btn-primary-red mt-4">Discover Our Story</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY STRIP ===== -->
+<section class="gallery-strip" data-gsap="fadeUp">
+  <div class="gallery-track">
+    <img src="https://smile.com.pk/images/flickr_img_1.png" alt="Gallery"/>
+    <img src="https://smile.com.pk/images/flickr_img_2.png" alt="Gallery"/>
+    <img src="https://smile.com.pk/images/flickr_img_3.png" alt="Gallery"/>
+    <img src="https://smile.com.pk/images/flickr_img_4.png" alt="Gallery"/>
+    <img src="https://smile.com.pk/images/flickr_img_5.png" alt="Gallery"/>
+    <img src="https://smile.com.pk/images/flickr_img_7.png" alt="Gallery"/>
+    <img src="https://smile.com.pk/images/flickr_img_8.png" alt="Gallery"/>
+    <img src="https://smile.com.pk/images/flickr_img_19.png" alt="Gallery"/>
+    <!-- duplicate for seamless loop -->
+    <img src="https://smile.com.pk/images/flickr_img_1.png" alt="Gallery"/>
+    <img src="https://smile.com.pk/images/flickr_img_2.png" alt="Gallery"/>
+    <img src="https://smile.com.pk/images/flickr_img_3.png" alt="Gallery"/>
+    <img src="https://smile.com.pk/images/flickr_img_4.png" alt="Gallery"/>
+  </div>
+</section>
+
+<!-- ===== WHY CHOOSE US ===== -->
+<section class="why-section py-section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-gsap="fadeRight">
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">Excellence in Every<br/>Aspect of Dental Care</h2>
+        <div class="why-list">
+          <div class="why-item" data-gsap="fadeUp">
+            <div class="why-icon"><i class="bi bi-award-fill"></i></div>
+            <div>
+              <h5>Award-Winning Practice</h5>
+              <p>Recognized as one of Karachi's top dental hospitals with consistent 5-star patient reviews.</p>
+            </div>
+          </div>
+          <div class="why-item" data-gsap="fadeUp">
+            <div class="why-icon"><i class="bi bi-cpu-fill"></i></div>
+            <div>
+              <h5>Digital & 3D Dentistry</h5>
+              <p>We use digital X-rays, 3D scanning, and CAD/CAM technology for precision treatments.</p>
+            </div>
+          </div>
+          <div class="why-item" data-gsap="fadeUp">
+            <div class="why-icon"><i class="bi bi-people-fill"></i></div>
+            <div>
+              <h5>Patient-Centered Approach</h5>
+              <p>Every treatment plan is customized. We listen, educate, and involve you in every decision.</p>
+            </div>
+          </div>
+          <div class="why-item" data-gsap="fadeUp">
+            <div class="why-icon"><i class="bi bi-cash-stack"></i></div>
+            <div>
+              <h5>Affordable Payment Plans</h5>
+              <p>Flexible financing options to make world-class dental care accessible to every family.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-gsap="fadeLeft">
+        <div class="why-img-wrap">
+          <img src="https://smile.com.pk/images/oral1.png" alt="Oral Care" class="why-main-img"/>
+          <div class="why-float-card">
+            <i class="bi bi-emoji-smile-fill"></i>
+            <div>
+              <strong>98%</strong>
+              <small>Patient Satisfaction Rate</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BAND ===== -->
+<section class="cta-band" data-gsap="fadeUp">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <h2>Ready to Transform Your Smile?</h2>
+        <p>Schedule your free consultation today and take the first step towards a healthier, more beautiful smile.</p>
+      </div>
+      <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+        <a href="contact.html" class="btn btn-white-red me-3">Book Appointment</a>
+        <a href="tel:03111334222" class="btn btn-outline-white-cta"><i class="bi bi-telephone-fill me-2"></i>Call Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="testimonials-section py-section">
+  <div class="container">
+    <div class="section-header text-center" data-gsap="fadeUp">
+      <span class="section-tag">Patient Stories</span>
+      <h2 class="section-title">What Our Patients Say</h2>
+    </div>
+    <div id="testimonialCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8">
+              <div class="testimonial-card text-center">
+                <div class="stars mb-3">★★★★★</div>
+                <p class="testimonial-text">"Fatima Dental Hospital completely transformed my smile with dental implants. The procedure was painless, and the results are absolutely stunning. I can't stop smiling now!"</p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">AA</div>
+                  <div>
+                    <strong>Ahmed Ali</strong>
+                    <small>Dental Implant Patient</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8">
+              <div class="testimonial-card text-center">
+                <div class="stars mb-3">★★★★★</div>
+                <p class="testimonial-text">"I was terrified of the dentist but the team at Fatima Dental made me feel so comfortable. Their gentle approach and modern equipment made my root canal completely stress-free."</p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">SK</div>
+                  <div>
+                    <strong>Sara Khan</strong>
+                    <small>Root Canal Patient</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8">
+              <div class="testimonial-card text-center">
+                <div class="stars mb-3">★★★★★</div>
+                <p class="testimonial-text">"My children love going to Fatima Dental! The pediatric team is so patient and kind. They've made dental visits something my kids actually look forward to."</p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">FR</div>
+                  <div>
+                    <strong>Fatima Rehman</strong>
+                    <small>Pediatric Patient Parent</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-indicators testimonial-dots">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BRANCHES ===== -->
+<section class="branches-section py-section" id="branches">
+  <div class="container">
+    <div class="section-header text-center" data-gsap="fadeUp">
+      <span class="section-tag">Our Locations</span>
+      <h2 class="section-title">Two Convenient Branches</h2>
+    </div>
+    <div class="row g-4 mt-3">
+      <div class="col-md-6" data-gsap="card">
+        <div class="branch-card">
+          <div class="branch-num">01</div>
+          <h4>Khalid Bin Waleed Road</h4>
+          <ul class="branch-info">
+            <li><i class="bi bi-geo-alt-fill"></i> Khalid Bin Waleed Road, Karachi-74800</li>
+            <li><i class="bi bi-telephone-fill"></i> (03) 111-334-222 | 021-34549684 | 021-34311064</li>
+            <li><i class="bi bi-printer-fill"></i> 021-34381464</li>
+            <li><i class="bi bi-envelope-fill"></i> smilecare@hotmail.com</li>
+            <li><i class="bi bi-clock-fill"></i> 9:00 AM – 9:00 PM (Closed Sundays)</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary-red mt-3">Get Directions</a>
+        </div>
+      </div>
+      <div class="col-md-6" data-gsap="card">
+        <div class="branch-card">
+          <div class="branch-num">02</div>
+          <h4>F.B. Area</h4>
+          <ul class="branch-info">
+            <li><i class="bi bi-geo-alt-fill"></i> A-128, Block 8, F.B. Area, Karachi-75950</li>
+            <li><i class="bi bi-telephone-fill"></i> (03) 111-334-222 | 021-36335515 (Upto 18)</li>
+            <li><i class="bi bi-printer-fill"></i> 021-36335511</li>
+            <li><i class="bi bi-envelope-fill"></i> smilecare@hotmail.com</li>
+            <li><i class="bi bi-clock-fill"></i> 9:00 AM – 9:00 PM (Closed Sundays)</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary-red mt-3">Get Directions</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="main-footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <a href="index.html" class="footer-brand">
+            <img src="https://smile.com.pk/images/logo.png" alt="Logo" class="footer-logo"/>
+          </a>
+          <p class="footer-about mt-3">Fatima Dental Hospital has been delivering exceptional dental care in Karachi for over 30 years. Your smile is our greatest achievement.</p>
+          <div class="footer-socials mt-4">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h5 class="footer-heading">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="implants.html">Dental Implants</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <h5 class="footer-heading">Our Services</h5>
+          <ul class="footer-links">
+            <li><a href="#">Teeth Whitening</a></li>
+            <li><a href="#">Dental Implants</a></li>
+            <li><a href="#">Orthodontics / Braces</a></li>
+            <li><a href="#">Root Canal Treatment</a></li>
+            <li><a href="#">Oral Surgery</a></li>
+            <li><a href="#">Pediatric Dentistry</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="footer-heading">Contact Info</h5>
+          <ul class="footer-contact">
+            <li><i class="bi bi-telephone-fill"></i> (03) 111-334-222</li>
+            <li><i class="bi bi-envelope-fill"></i> smilecare@hotmail.com</li>
+            <li><i class="bi bi-clock-fill"></i> Mon–Sat: 9:00 AM – 9:00 PM</li>
+            <li><i class="bi bi-geo-alt-fill"></i> 2 Locations in Karachi</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary-red mt-4 btn-sm">Book Appointment</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p>© 2024 Fatima Dental Hospital. All Rights Reserved.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p>Designed with <i class="bi bi-heart-fill text-danger"></i> for healthier smiles</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== BACK TO TOP ===== -->
+<button class="back-to-top" id="backToTop"><i class="bi bi-arrow-up"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

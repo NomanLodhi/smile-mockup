@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us – Fatima Dental Hospital</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="container-fluid px-4">
+    <div class="row align-items-center">
+      <div class="col-md-8 d-flex flex-wrap gap-3">
+        <span><i class="bi bi-telephone-fill me-1"></i> (03) 111-334-222 | 021-34549684</span>
+        <span><i class="bi bi-envelope-fill me-1"></i> smilecare@hotmail.com</span>
+        <span><i class="bi bi-clock-fill me-1"></i> Mon–Sat: 9:00 AM – 9:00 PM</span>
+      </div>
+      <div class="col-md-4 text-end">
+        <a href="#" class="topbar-social"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="topbar-social"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="topbar-social"><i class="bi bi-twitter-x"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg main-nav" id="mainNav">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand" href="index.html">
+      <img src="https://smile.com.pk/images/logo.png" alt="Logo" class="nav-logo"/>
+      <div class="brand-text">
+        <span class="brand-title">Fatima Dental</span>
+        <span class="brand-sub">Hospital</span>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="toggler-icon"><span></span><span></span><span></span></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="implants.html">Dental Implants</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+        <li class="nav-item ms-lg-3">
+          <a class="btn btn-primary-red nav-cta" href="contact.html">Book Appointment</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero" style="background-image:url('https://smile.com.pk/images/slider/slide2.jpg')">
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <div class="container">
+      <span class="hero-badge" data-gsap="fadeUp">Get In Touch</span>
+      <h1 class="page-hero-title" data-gsap="fadeUp">Contact &amp;<br/><em>Appointments</em></h1>
+      <nav aria-label="breadcrumb" data-gsap="fadeUp">
+        <ol class="breadcrumb justify-content-center">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active">Contact Us</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK INFO CARDS -->
+<section class="quick-info-section">
+  <div class="container">
+    <div class="row g-4 quick-info-row">
+      <div class="col-md-4" data-gsap="card">
+        <div class="qi-card">
+          <div class="qi-icon"><i class="bi bi-telephone-fill"></i></div>
+          <h5>Call Us</h5>
+          <p>(03) 111-334-222</p>
+          <p>021-34549684</p>
+          <p>021-34311064</p>
+          <a href="tel:03111334222" class="qi-link">Call Now <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4" data-gsap="card">
+        <div class="qi-card qi-card--red">
+          <div class="qi-icon"><i class="bi bi-calendar2-check-fill"></i></div>
+          <h5>Book Appointment</h5>
+          <p>Schedule your visit online and we'll confirm within 2 hours.</p>
+          <p class="fw-600">Free first consultation!</p>
+          <a href="#appointment-form" class="qi-link">Book Now <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4" data-gsap="card">
+        <div class="qi-card">
+          <div class="qi-icon"><i class="bi bi-clock-fill"></i></div>
+          <h5>Clinic Hours</h5>
+          <p>Monday – Saturday</p>
+          <p class="hours-time">9:00 AM – 9:00 PM</p>
+          <p class="closed-text">Sundays: Closed</p>
+          <a href="#branches-section" class="qi-link">Find Us <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT + APPOINTMENT FORM -->
+<section class="contact-main py-section" id="appointment-form">
+  <div class="container">
+    <div class="row g-5">
+      <!-- FORM -->
+      <div class="col-lg-7" data-gsap="fadeLeft">
+        <span class="section-tag">Request Appointment</span>
+        <h2 class="section-title">Book Your Visit<br/>Online</h2>
+        <p>Fill out the form below and our team will contact you within 2 hours to confirm your appointment.</p>
+        <div class="contact-form-wrap mt-4">
+          <div id="formSuccess" class="alert alert-success d-none" role="alert">
+            <i class="bi bi-check-circle-fill me-2"></i> Thank you! We'll contact you shortly to confirm your appointment.
+          </div>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input type="text" class="form-control custom-input" id="fname" placeholder="First Name" required/>
+                <label for="fname"><i class="bi bi-person me-1"></i> First Name</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input type="text" class="form-control custom-input" id="lname" placeholder="Last Name" required/>
+                <label for="lname"><i class="bi bi-person me-1"></i> Last Name</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input type="tel" class="form-control custom-input" id="phone" placeholder="Phone" required/>
+                <label for="phone"><i class="bi bi-telephone me-1"></i> Phone Number</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input type="email" class="form-control custom-input" id="email" placeholder="Email"/>
+                <label for="email"><i class="bi bi-envelope me-1"></i> Email Address</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating">
+                <select class="form-select custom-input" id="service">
+                  <option value="">Select Service</option>
+                  <option>Dental Implants</option>
+                  <option>Teeth Whitening</option>
+                  <option>Orthodontics / Braces</option>
+                  <option>Root Canal Treatment</option>
+                  <option>Oral Surgery</option>
+                  <option>Pediatric Dentistry</option>
+                  <option>General Checkup</option>
+                  <option>Teeth Cleaning</option>
+                  <option>Veneers</option>
+                  <option>Other</option>
+                </select>
+                <label for="service"><i class="bi bi-list-ul me-1"></i> Select Service</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating">
+                <select class="form-select custom-input" id="branch">
+                  <option value="">Select Branch</option>
+                  <option>Khalid Bin Waleed Road</option>
+                  <option>F.B. Area</option>
+                </select>
+                <label for="branch"><i class="bi bi-geo-alt me-1"></i> Preferred Branch</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating">
+                <input type="date" class="form-control custom-input" id="appt-date"/>
+                <label for="appt-date"><i class="bi bi-calendar me-1"></i> Preferred Date</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating">
+                <select class="form-select custom-input" id="appt-time">
+                  <option value="">Select Time</option>
+                  <option>09:00 AM – 10:00 AM</option>
+                  <option>10:00 AM – 11:00 AM</option>
+                  <option>11:00 AM – 12:00 PM</option>
+                  <option>12:00 PM – 01:00 PM</option>
+                  <option>02:00 PM – 03:00 PM</option>
+                  <option>03:00 PM – 04:00 PM</option>
+                  <option>04:00 PM – 05:00 PM</option>
+                  <option>05:00 PM – 06:00 PM</option>
+                  <option>07:00 PM – 08:00 PM</option>
+                </select>
+                <label for="appt-time"><i class="bi bi-clock me-1"></i> Preferred Time</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-floating">
+                <textarea class="form-control custom-input" id="message" placeholder="Message" style="height:120px"></textarea>
+                <label for="message"><i class="bi bi-chat-text me-1"></i> Additional Notes</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="button" class="btn btn-primary-red w-100 btn-submit" id="submitBtn" onclick="submitForm()">
+                <span class="btn-text"><i class="bi bi-calendar2-check me-2"></i>Confirm Appointment</span>
+                <span class="btn-loading d-none"><span class="spinner-border spinner-border-sm me-2"></span>Sending...</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div class="col-lg-5" data-gsap="fadeRight">
+        <span class="section-tag">Our Locations</span>
+        <h2 class="section-title">Find Us in<br/>Karachi</h2>
+        <div class="branch-detail-cards mt-4">
+          <div class="bdc-card" id="branches-section">
+            <div class="bdc-header">
+              <div class="bdc-num">01</div>
+              <div>
+                <h5>Khalid Bin Waleed Road</h5>
+                <span class="bdc-tag">Main Branch</span>
+              </div>
+            </div>
+            <ul class="bdc-list">
+              <li><i class="bi bi-geo-alt-fill"></i> Khalid Bin Waleed Road, Karachi-74800</li>
+              <li><i class="bi bi-telephone-fill"></i> (03) 111-334-222</li>
+              <li><i class="bi bi-telephone-fill"></i> 021-34549684 | 021-34311064 | 021-34386079</li>
+              <li><i class="bi bi-printer-fill"></i> 021-34381464</li>
+              <li><i class="bi bi-envelope-fill"></i> smilecare@hotmail.com</li>
+              <li><i class="bi bi-clock-fill"></i> 9:00 AM – 9:00 PM (Mon–Sat)</li>
+            </ul>
+            <a href="https://maps.google.com" target="_blank" class="bdc-map-btn"><i class="bi bi-map-fill me-2"></i>View on Map</a>
+          </div>
+
+          <div class="bdc-card mt-4">
+            <div class="bdc-header">
+              <div class="bdc-num">02</div>
+              <div>
+                <h5>F.B. Area</h5>
+                <span class="bdc-tag">Branch</span>
+              </div>
+            </div>
+            <ul class="bdc-list">
+              <li><i class="bi bi-geo-alt-fill"></i> A-128, Block 8, F.B. Area, Karachi-75950</li>
+              <li><i class="bi bi-telephone-fill"></i> (03) 111-334-222</li>
+              <li><i class="bi bi-telephone-fill"></i> 021-36335515 (Upto 18 lines)</li>
+              <li><i class="bi bi-printer-fill"></i> 021-36335511</li>
+              <li><i class="bi bi-envelope-fill"></i> smilecare@hotmail.com</li>
+              <li><i class="bi bi-clock-fill"></i> 9:00 AM – 9:00 PM (Mon–Sat)</li>
+            </ul>
+            <a href="https://maps.google.com" target="_blank" class="bdc-map-btn"><i class="bi bi-map-fill me-2"></i>View on Map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAPS EMBED -->
+<section class="maps-section" data-gsap="fadeUp">
+  <div class="container">
+    <div class="section-header text-center mb-4">
+      <span class="section-tag">Find Us</span>
+      <h2 class="section-title">Our Locations on the Map</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="map-wrap">
+          <div class="map-label"><i class="bi bi-geo-alt-fill me-2"></i>Khalid Bin Waleed Road Branch</div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.692838605448!2d67.05688239999999!3d24.874338299999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e8d7279ed9d%3A0x799917fee5494475!2sKhalid%20Bin%20Walid%20Rd%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1778155069038!5m2!1sen!2s"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+       
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="map-wrap">
+          <div class="map-label"><i class="bi bi-geo-alt-fill me-2"></i>F.B. Area Branch</div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.4!2d67.0411!3d24.9312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f0000000000%3A0x5678!2sF.B.+Area%2C+Karachi!5e0!3m2!1sen!2spk!4v1234567890"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="main-footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <a href="index.html"><img src="https://smile.com.pk/images/logo.png" alt="Logo" class="footer-logo"/></a>
+          <p class="footer-about mt-3">Fatima Dental Hospital — Committed to excellence in dental care across Karachi for over 30 years.</p>
+          <div class="footer-socials mt-4">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h5 class="footer-heading">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="implants.html">Dental Implants</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <h5 class="footer-heading">Services</h5>
+          <ul class="footer-links">
+            <li><a href="#">Teeth Whitening</a></li>
+            <li><a href="#">Dental Implants</a></li>
+            <li><a href="#">Orthodontics</a></li>
+            <li><a href="#">Root Canal</a></li>
+            <li><a href="#">Oral Surgery</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="footer-heading">Contact Info</h5>
+          <ul class="footer-contact">
+            <li><i class="bi bi-telephone-fill"></i> (03) 111-334-222</li>
+            <li><i class="bi bi-envelope-fill"></i> smilecare@hotmail.com</li>
+            <li><i class="bi bi-clock-fill"></i> Mon–Sat: 9:00 AM – 9:00 PM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"><p>© 2024 Fatima Dental Hospital. All Rights Reserved.</p></div>
+        <div class="col-md-6 text-md-end"><p>Designed with <i class="bi bi-heart-fill text-danger"></i> for healthier smiles</p></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop"><i class="bi bi-arrow-up"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="main.js"></script>
+<script>
+function submitForm() {
+  const btn = document.getElementById('submitBtn');
+  btn.querySelector('.btn-text').classList.add('d-none');
+  btn.querySelector('.btn-loading').classList.remove('d-none');
+  btn.disabled = true;
+  setTimeout(() => {
+    btn.querySelector('.btn-text').classList.remove('d-none');
+    btn.querySelector('.btn-loading').classList.add('d-none');
+    btn.disabled = false;
+    document.getElementById('formSuccess').classList.remove('d-none');
+    document.getElementById('formSuccess').scrollIntoView({behavior:'smooth'});
+  }, 2000);
+}
+</script>
+</body>
+</html>
